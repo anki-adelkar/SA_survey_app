@@ -1,0 +1,111 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/controllers/questionnaire_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/helpers/questionnaires_helper.rb": [
+        1,
+        null
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/models/questionnaire.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/jobs/application_job.rb": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "/home/ankita_adelkar/Downloads/AnkitaAdelkar/survey_app/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1717525602
+  }
+}

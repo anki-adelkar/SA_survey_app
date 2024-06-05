@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+</head>
+
+<body>
+  <h1> Survey </h1>
+
+    <% if flash[:alert].present? %>
+      <div class="alert">
+        <%= flash[:alert] %>
+      </div>
+    <% end %>
+
+    <%= form_tag(questionnaire_submit_path) do %>
+      <% @questions.each do |key, question| %>
+        <div class="question">
+          <p><%= question %></p>
+          <%= radio_button_tag "responses[#{key}]", 'Yes' %> Yes
+          <%= radio_button_tag "responses[#{key}]", 'No' %> No
+        </div>
+      <% end %>
+      <%= submit_tag "Submit Survey" %>
+    <% end %>
+
+  <h3> Score <%= @score %></h3>
+  <h3> Average Rating: <%= @average_rating %></h3>
+
+</body>
+</html>
