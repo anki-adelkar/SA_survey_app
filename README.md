@@ -46,3 +46,6 @@ total_rating = sum all the rating per user
 total_runs = number of users has given survey.
 average_rating = total_rating / total_runs
 - do prompt and do_report methods are called in loop to accept survey input for another next user. if we get response in 'Yes/Y' case insensitive on question "Do you want to run the survey again? (Yes/No)"
+
+
+Note: Unite test cases has been written in specs folder.
